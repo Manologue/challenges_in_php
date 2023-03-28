@@ -1,0 +1,22 @@
+prime number is divisible by 1 and itself
+2,3,5,7,11. //green
+
+non prime number is the inverse 
+4, 6 etc // brown
+
+even number are divisible by 2 // blue
+
+non even numbers // yellow
+
+
+prime number and even only 2 pink
+
+
+prime number/odd color - blue
+non prime number/odd color - green
+
+prime number/even color - yellow
+non prime number/even color - brown
+
+
+1 or decimal number color black
