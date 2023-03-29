@@ -26,7 +26,7 @@
          <?php endif ?>
 
          <!-- form input -->
-         <form action="index.php" method="GET">
+         <form action="index" method="GET">
             <input name="numbers" placeholder="Enter numbers e.g 1...25,63.2" type="text">
             <button type="submit">Submit</button>
          </form>
