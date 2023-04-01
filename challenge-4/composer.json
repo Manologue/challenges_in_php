@@ -1,0 +1,10 @@
+{
+  "require": {
+    "ezyang/htmlpurifier": "^4.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
