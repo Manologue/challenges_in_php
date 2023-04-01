@@ -42,8 +42,5 @@ for ($i = 0; $i < 99; $i++) {
 
 }
 
-// echo '<pre>';
-// var_dump($strainer->getJuice());
-// echo '</pre>';
 
 echo 'all actions completed successfully';
