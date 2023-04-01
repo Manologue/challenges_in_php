@@ -10,7 +10,7 @@ class StrainerImp implements Strainer
 
 
 
-   public function getJuice()
+   public function getJuice(): array
    {
       return $this->juice;
    }

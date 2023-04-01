@@ -14,13 +14,13 @@ class Apple extends Fruit
       $this->volume = $volume;
    }
 
-   public function getIsWormy()
+   public function getIsWormy(): bool
    {
       return $this->isWormy;
    }
 
 
-   public function setIsWormy($isWormy)
+   public function setIsWormy(bool $isWormy)
    {
       $this->isWormy = $isWormy;
 
