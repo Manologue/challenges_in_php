@@ -15,14 +15,16 @@
    </div>
    <div class="mb-3">
       <label for="username" class="form-label">User Name</label>
-      <input type="text" name="username" class="form-control" id="username" />
+      <input type="text" value="<?= html_escape($user['username']) ?>" name="username" class="form-control"
+         id="username" />
       <div class="form-text text-danger">
          <?= $errors['username'] ?>
       </div>
    </div>
    <div class="mb-3">
       <label for="password" class="form-label">Password</label>
-      <input type="password" name="password" class="form-control" id="password" />
+      <input type="password" value="<?= html_escape($user['password']) ?>" name="password" class="form-control"
+         id="password" />
       <div class="form-text text-danger">
          <?= $errors['password'] ?>
       </div>
