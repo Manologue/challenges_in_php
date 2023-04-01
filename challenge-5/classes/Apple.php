@@ -7,7 +7,7 @@ class Apple extends Fruit
 {
    private bool $isWormy = false;
 
-   protected float $volume = 190; //centimetre(cm³)
+   protected float $volume; //centimetre(cm³)
 
    public function __construct($volume)
    {
