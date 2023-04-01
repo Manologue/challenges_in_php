@@ -29,4 +29,4 @@ define("CHARSET", "utf8mb4");
 $dsn = TYPE . ":host=" . DBHOST . ";dbname=" . DBNAME . ";port=" . PORT . ";charset=" . CHARSET;
 ```
 
-1- make sure to enter the sql file inside the challenge-4 folder in your database
+2- make sure to enter the sql file inside the challenge-4 folder in your database
